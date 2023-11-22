@@ -1,0 +1,315 @@
+body,html{
+    font-family:'lato';
+    font-size: 16px;
+    color: #818d9a;
+    line-height: 26px;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    padding: 0;
+}
+a{
+    color: #797979;
+    text-decoration: none;
+    font-family: monospace; 
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*----------------nav------------------*/
+.nav-link{
+   color: green;
+}
+/*----------------operation--------------------*/
+.operation_wrapper{
+   
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,#2E4053,#2ECC71 );
+   } 
+   
+   .d-block{
+    margin-left: 47rem;
+    margin-top: 20px;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+   }
+   .carousel-caption{
+    margin-bottom: 10rem;
+    margin-right: 15rem;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+   }
+   .carousel-caption h5{
+    margin-left: -22rem;
+    word-spacing: 2rem;
+   }
+   .carousel-caption button{
+    margin-left: -17rem;
+    margin-top: 29px;
+    background-color: #0B5345;
+    padding: 11px 42px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 9px;
+   }
+ /*----------------doctor--------------------*/
+   .doctor_wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+   }
+   .doc_img{
+    padding-top: 3rem;
+   }
+   .about_as{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   }
+   .about_as h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .about_as h3{
+    color: #2ECC71;
+    margin-bottom: 20px;
+   }
+   .about_as button{
+    margin-top: 30px;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    background-color: #2ECC71;
+    border: 1px solid #2ECC71;
+   }
+   .about_as img{
+    margin-top: 20px;
+   }
+  
+   /*----------------number--------------------*/
+   .number_wrapper{
+    margin: 0;
+    padding:0;
+   
+    background-image: url(../images/count.jpg); 
+   }
+   .about_as{
+    display: inline-block;
+   }
+
+    .overlay{
+    margin: 60px 0px;
+    padding: 60px 0px;
+    
+    background-color: rgba(0,0,0,0.7); 
+    
+   }
+  .count_icon{
+    margin: 0px;
+    text-align: center;
+   }
+   .i:hover{
+       color: #2ECC71;
+   }
+   .count_icon h4{
+    
+    color: white;
+    font-size: 20px;
+   }
+   .count_icon b{
+    font-size: 28px;
+    color: white;
+   }
+   .fa-users{
+    border: 1px solid white;
+    padding: 22px;
+   }
+  
+   .fa-user-doctor{
+    border: 1px solid white;
+    padding: 22px;  
+   }
+    .fa-trophy{
+        border: 1px solid white;
+        padding: 22px;
+    }
+    .fa-heart-pulse{
+        border: 1px solid white;
+        padding: 22px;
+    }
+/*---------------our service--------------*/
+.our_services_wrapper{
+    padding: 60px 0px;
+    
+}
+.service_headding h2{
+    border-bottom: 2px solid black;
+   
+    display: inline-block;
+    padding: 0 15px;
+   
+    color: #2ECC71;
+}
+.doctor_pic img{
+  transition: transform(4s);
+    transition-duration: 1.5s;
+}
+.doctor_pic img:hover{
+  transform: scale(1.2,1.2);
+  transition-duration: 1.5s;
+  transition: transform(4s);
+}
+.doctor_pic{
+  overflow: hidden;
+}
+.our_team_wrappre {
+    background-image: url(../images/team_bg.jpg);
+   
+  }
+
+.team {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 90px;
+  }
+.hadding {
+    text-align: center;
+    padding-top: 80px;
+  }
+.item{
+    color: white;
+    overflow: hidden;
+    text-align: center;
+  }
+  .item img{
+    color: white;
+    transition: transform(4s);
+    transition-duration: 1.5s;
+  }
+  .item img:hover{
+    transform: scale(1.2,1.2);
+  transition-duration: 1.5s;
+
+  }
+  .our_news_wrapper {
+    background-color: ghostwhite;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 60px;
+
+  }
+
+  .our_news_wrapper button {
+    border: 1px solid #2ECC71;
+    padding: 7px 45px;
+    border-radius: 5px;
+    background-color: #2ECC71;
+  }
+
+  .news {
+    padding-bottom: 30px;
+  }
+
+  .box1 {
+    border: 2px solid white;
+    background-color: white;
+    margin: -4px;
+    padding: 20px;
+  }
+
+  .box1 button {
+    padding: 5px 35px;
+    background-color: #2ECC71;
+    border: 1px solid #2ECC71;
+    border-radius: 5px;
+  }
+  .img1 img{
+    transition: transform(4s);
+    transition-duration: 1.5s;
+  }
+   .img1 img:hover{
+    transform: scale(1.2,1.2);
+  transition-duration: 1.5s;
+  transition: transform(4s);
+   }
+   .img1{
+    overflow: hidden;
+   }
+   .img2 img{
+    transition: transform(4s);
+    transition-duration: 1.5s;
+  }
+   .img2 img:hover{
+    transform: scale(1.2,1.2);
+  transition-duration: 1.5s;
+  transition: transform(4s);
+   }
+   .img2{
+    overflow: hidden;
+   }
+  .our_testimonials_wrappre {
+    background-image: url(../images/testi_bg.jpg);
+  }
+
+  .testimonial {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 50px;
+  }
+  
+
+  .headpart {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+
+  }
+  .fa-quote-right{
+    color: #2ECC71;
+    font-size: 30px;
+  }
+  .last {
+      
+    background-image: url(../images/foter_bg.jpg)
+  }
+
+  .pages {
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.7)
+  }
+
+  .part {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  .mape_location{
+    margin: 65px 0px;
+  }
+  .our_location img{
+    width: 320px;
+    height: 200px;
+  }
+  .ourself{
+    color: white;
+  }
+  .feed{
+    color: white;
+  }
+  .instagram{
+    color: white;
+    box-shadow: 20px solid;
+  }
+  .instagram img{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
